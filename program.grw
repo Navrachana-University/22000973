@@ -1,0 +1,10 @@
+kya_haal
+
+bol x = 5;
+bol y = 10;
+agar x < y toh
+    bol_de "x chhota hai";
+nahi_toh
+    bol_de "x bada hai";
+
+feri_malya
