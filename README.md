@@ -1,6 +1,13 @@
 Project Title: Garhwali Compiler (Creating a compiler in your own language)
 The project created by me and my project partner is made on the Garhwali language. The final output given by the code is a three address code. 
 The files for the project have been uploaded. They are: garhwali.l (The Lex File), garhwali.y (The Yacc File), and program.grw (a test program file).
+
+Steps to run the project code:
+1. flex garhwali.l
+2. bison -d garhwali.y
+3. gcc lex.yy.c garhwali.tab.c -o garhwali_compiler
+4. Get-Content program.grw | ./garhwali_compiler
+
 The codes for the same are given below:- 
 
 garhwali.l (Lex File):
